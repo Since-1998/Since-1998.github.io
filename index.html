@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Since Chiu</title>
     <style>
+        html {
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,24 +21,33 @@
         .container {
             display: flex;
             align-items: center;
-            background-color: white;
             padding: 20px;
         }
         .profile-pic {
-            width: 250px;
-            height: 250px;
+            width: 400px;
+            height: 400px;
             border-radius: 50%;
-            margin-right: 20px;
+            margin-left: 25px
+            margin-right: 25px;
         }
         .content {
-            max-width: 800px;
+            max-width: 900px;
         }
         h1 {
-            font-size: 2.5em;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 5em;
             margin: 0;
+            margin-left:25px;
+        }
+        h2 {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 2em;
+            margin: 3rem;
+            margin-left:25px;
         }
         p {
             margin: 10px 0;
+            margin-left:25px;
         }
         .buttons {
             display: flex;
@@ -46,14 +58,14 @@
             color: white;
             background-color: #6C7A89; 
             padding: 15px 15px; 
-            width: 80px; 
-            height: 80px;
+            width: 90px; 
+            height: 90px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             border-radius: 10px;
-            font-size: 14px;
+            font-size: 1.5rem;
             transition: background-color 0.3s ease;
         }
         .buttons a:hover {
@@ -76,6 +88,7 @@
         <img src="me01.jpg" alt="My Picture" class="profile-pic">
         <div class="content">
             <h1><span lang="zh-TW">你好</span> Hello</h1>
+            <h2><span lang="zh-TW">邱心慈</span> Since Chiu</h2>
             <p>
                 🏗️ Embedded systems engineer specializing in MCUs and Bluetooth firmware<br>
                 🎒 Passionate traveler, currently on a working holiday in Germany<br>
